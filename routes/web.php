@@ -2,7 +2,7 @@
 
 Route::redirect('/', '/login');
 Route::get('/home', function () {
-    $routeName = auth()->user() && (auth()->user()->is_student || auth()->user()->is_teacher) ? 'admin.calendar.index' : 'admin.home'; 
+    $routeName = auth()->user() && (auth()->user()->is_student || auth()->user()->is_teacher) ? 'admin.calendar.index' : 'admin.home';
     if (session('status')) {
         return redirect()->route($routeName)->with('status', session('status'));
     }
@@ -36,4 +36,6 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'namespace' => 'Admin', 'mi
     Route::resource('school-classes', 'SchoolClassesController');
 
     Route::get('calendar', 'CalendarController@index')->name('calendar.index');
+
+    Route::get('sms', 'SmsController@index')->name('sms.index');
 });
