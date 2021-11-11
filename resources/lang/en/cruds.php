@@ -87,7 +87,7 @@ return [
             'updated_at_helper' => '',
             'deleted_at'        => 'Deleted at',
             'deleted_at_helper' => '',
-            'class'             => 'Class',
+            'class'             => 'Venue',
             'class_helper'      => '',
         ],
     ],
