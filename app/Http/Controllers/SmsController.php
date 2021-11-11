@@ -34,7 +34,5 @@ class SmsController extends Controller
                 }
             }
         }
-
-
     }
 }
