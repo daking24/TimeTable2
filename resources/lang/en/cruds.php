@@ -73,7 +73,7 @@ return [
         'fields'         => [
             'id'                => 'ID',
             'id_helper'         => '',
-            'teacher'           => 'Teacher',
+            'teacher'           => 'Lecturer',
             'teacher_helper'    => '',
             'weekday'           => 'Weekday',
             'weekday_helper'    => '',
@@ -92,8 +92,8 @@ return [
         ],
     ],
     'schoolClass'    => [
-        'title'          => 'School Classes',
-        'title_singular' => 'School Class',
+        'title'          => 'School Venue',
+        'title_singular' => 'School Venue',
         'fields'         => [
             'id'                => 'ID',
             'id_helper'         => '',

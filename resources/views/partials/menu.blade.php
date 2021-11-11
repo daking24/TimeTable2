@@ -53,7 +53,7 @@
                                     <i class="fa-fw fas fa-user nav-icon">
 
                                     </i>
-                                    Teachers
+                                    Lecturer
                                 </a>
                             </li>
                             <li class="nav-item">
