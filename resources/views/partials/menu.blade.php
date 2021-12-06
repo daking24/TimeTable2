@@ -93,7 +93,7 @@
                     <i class="fa-fw fas fa-calendar nav-icon">
 
                     </i>
-                    Calendar
+                    Timetable
                 </a>
             </li>
             <li class="nav-item">
